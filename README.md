@@ -6,7 +6,7 @@ Datasets used are listed below:
 * Fitabase: https://www.kaggle.com/datasets/arashnic/fitbit
 
 ## About Bellabeat
-Bellabeat is a high-tech manufacturer of healhth-focused products for women. It was founded in 2013 and focuses on 5 products: Bellabeat app, Leaf, Time, Spring and Bellabeat membership. 
+Bellabeat is a high-tech manufacturer of health-focused products for women. It was founded in 2013 and focuses on 5 products: Bellabeat app, Leaf, Time, Spring and Bellabeat membership. 
 
 ## This case study follows the data analysis process in 6 steps:
 
