@@ -17,4 +17,5 @@ Bellabeat is a high-tech manufacturer of health-focused products for women. It w
 ### [Share](#5-share)
 ### [Act](#6-act)
 
-## 1. ASK
+## 1. Ask
+Analyze Fitbit data to gain insight and help guide marketing strategy for Bellabeat to grow as a global player.
