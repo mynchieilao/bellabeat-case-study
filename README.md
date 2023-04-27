@@ -52,3 +52,23 @@ sum(is.na(sleep_day))
 sum(duplicated(sleep_day))
 sleep_day <- sleep_day[!duplicated(sleep_day), ]
 ```
+Convert ActivityDate into date format and add a column for day of the week:
+```
+daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
+```
+
+Check to see if we have 30 users using ```n_distinct()```. The dataset has 33 user data from daily activity, 24 from sleep and only 8 from weight. If there is a discrepency such as in the weight table, check to see how the data are recorded. The way the user record the data may give you insight on why there is missing data. 
+```
+weight %>% 
+  filter(IsManualReport == "True") %>% 
+  group_by(Id) %>% 
+  summarise("Manual Weight Report"=n()) %>%
+  distinct()
+ ```
+ 
+Additional insight to be awared of is how often user record their data. We can see from the ```ggplot()``` bar graph that the data are greatest from Tuesday to Thursday. We need to investigate the data recording distribution. Monday and Friday are both weekdays, why isn't the data recordings as much as the other weekdays? 
+```
+ggplot(data=merged_data, aes(x=Weekday))+
+  geom_bar(fill="steelblue")
+```
+![image](https://user-images.githubusercontent.com/62857660/136279088-a4c39b17-990b-4d7f-9092-7307d1c9a37b.png)
