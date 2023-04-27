@@ -10,12 +10,12 @@ Bellabeat is a high-tech manufacturer of health-focused products for women. It w
 
 ## This case study follows the data analysis process in 6 steps:
 
-### 1.Ask
-### 2.Prepare
-### 3.Process
-### 4.Analyze
-### 5.Share
-### 6.Act
+## 1. Ask
+## 2. Prepare
+## 3. Process
+## 4. Analyze
+## 5. Share
+## 6. Act
 
 ## 1. Ask
 Analyze Fitbit data to gain insight and help guide marketing strategy for Bellabeat to grow as a global player.
