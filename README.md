@@ -45,8 +45,10 @@ Cited: Unknown
 ## 3. Process
 
 First, examine the data, check for NA, and remove duplicates for three main tables: daily_activity, sleep_day and weight:
+
+```
 dim(sleep_day)
 sum(is.na(sleep_day))
 sum(duplicated(sleep_day))
 sleep_day <- sleep_day[!duplicated(sleep_day), ]
-
+```
