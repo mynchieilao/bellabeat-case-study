@@ -73,7 +73,7 @@ ggplot(data=merged_data, aes(x=Weekday))+
 ```
 ![image](https://user-images.githubusercontent.com/62857660/136279088-a4c39b17-990b-4d7f-9092-7307d1c9a37b.png)
 
-From weekday's total asleep minutes, we can see the graph look almost **same** as the graph above! We can confirmed that most sleep data is also recorded during Tuesday to Thursday. This raised a question "how comprehensive are the data to form an accurate analysis?"
+From weekday's total asleep minutes, we can see the graph look almost **same** as the graph above! We can confirm that most sleep data is also recorded during Tuesday to Thursday. This raised a question "how comprehensive are the data to form an accurate analysis?"
 
 ![image](https://user-images.githubusercontent.com/62857660/136279328-61059fcf-1554-478a-9dd6-680d243df486.png)
 
