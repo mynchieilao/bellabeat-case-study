@@ -85,14 +85,7 @@ merged_data <- merge(merged_activity_sleep, weight, by = c("Id"), all=TRUE)
 Clean the data to prepare for analysis in 4. Analyze!
 
 ## 4. Analyze
-[Back to Top](#author-emi-ly)
 
--  [Summary](#summary)
--  [Active Minutes](#active-minutes)
--  [Noticebal Day](#noticeable-day)
--  [Total Steps](#total-steps)
--  [Interesting Finds](#interesting-finds)
--  [Sleep](#sleep)
 
 
 ### Summary:
@@ -146,7 +139,6 @@ active_users <- daily_activity %>%
 ```
 
 ### Noticeable Day:
-[Back to Analyze](#4-analyze)
 
 The bar graph shows that there is a jump on Saturday: user spent LESS time in sedentary minutes and take MORE steps. Users are out and about on Saturday. 
 
@@ -158,7 +150,6 @@ The bar graph shows that there is a jump on Saturday: user spent LESS time in se
 
 
 ### Total Steps:
-[Back to Analyze](#4-analyze)
 
 Let's look at how active the users are per hourly in total steps. From 5PM to 7PM the users take the most steps. 
 ```
@@ -181,7 +172,6 @@ ggplot(data=merged_data, aes(x=Weekday, y=TotalSteps, fill=Weekday))+
 
 
 ### Interesting Finds:
-[Back to Analyze](#4-analyze)
 
 The more active that you're, the more steps you take, and the more calories you will burn. This is an obvious fact, but we can still look into the data to find any interesting. Here we see that some users who are sedentary, take minimal steps, but still able to burn over 1500 to 2500 calories compare to users who are more active, take more steps, but still burn similar calories.
 
@@ -203,7 +193,6 @@ According to [this healthline.com article](https://www.healthline.com/nutrition/
 ![image](https://user-images.githubusercontent.com/62857660/136263632-ac5c1958-23db-4374-b810-df6f322b047b.png)
 
 ### Sleep:
-[Back to Analyze](#4-analyze)
 
 According to article: [Fitbit Sleep Study](https://blog.fitbit.com/sleep-study/#:~:text=The%20average%20Fitbit%20user%20is,is%20spent%20restless%20or%20awake.&text=People%20who%20sleep%205%20hours,the%20beginning%20of%20the%20night.), 55 minutes are spent awake in bed before going to sleep. We have 13 users in our dataset spend 55 minutes awake before alseep. 
 
@@ -236,20 +225,12 @@ ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y = Calories, color=TotalMinu
 
 
 ## 5. Share 
-[Back to Top](#author-emi-ly)
 
-### 🎨 [Bellabeat Data Analysis Dashboard](https://public.tableau.com/app/profile/emily.liang7497/viz/BellabeatFitnessDataAnalysisDashboard/GiantDashboard)
 
-![dashboard-bella](https://user-images.githubusercontent.com/62857660/136821119-78ddef7b-1e78-4875-bc4b-04febdfb67c2.PNG)
-
-### [Bellabeat Data Presentation in Tableau](https://public.tableau.com/app/profile/emily.liang7497/viz/BellabeatFitnessDataAnalysis-GoogleDataAnalyticsCapstone/Story1)
-
-![present](https://user-images.githubusercontent.com/62857660/136821333-3e30a827-81d9-43c5-bd7f-98a1680901d9.PNG)
 
 
 
 ## 6. Act
-[Back to Top](#author-emi-ly)
 
 Conclusion based on our analysis:
 - Sedentary make up a significant portion, 81% of users daily active minutes. Users spend on avg 12 hours a day in sedentary minutes, 4 hours lightly active, and only half-hour in fairly+very active! 
