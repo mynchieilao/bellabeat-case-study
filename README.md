@@ -230,7 +230,7 @@ ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y = Calories, color=TotalMinu
 
 Bellabeat Data Analysis Dashboard
 
-![image](https://user-images.githubusercontent.com/114181548/236224383-3183331a-e567-4f00-b62e-b614effd824e.png)
+![image](https://user-images.githubusercontent.com/114181548/236225122-d978a8bf-ad4e-4637-abb3-7bb2a035b8dc.png))
 
 
 
