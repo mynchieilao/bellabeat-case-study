@@ -1,5 +1,5 @@
 ---
-## title: "R Notebook - Emily Liang - Bellabeat Case Study"
+## title: "R Notebook - Mynchie Ilao - Bellabeat Case Study"
 output:
   html_document:
     df_print: paged
@@ -27,7 +27,7 @@ library(plotly) #pie chart
 
 Step 2: Prepare the data and if needed, combine them in one data frame.
 ```{r}
-setwd("C:/Users/Emily/Downloads/data")
+setwd("C:/Users/Mynchie/Downloads/data")
 
 daily_activity <- read.csv("dailyActivity_merged.csv")
 sleep_day <- read.csv("sleepDay_merged.csv")
