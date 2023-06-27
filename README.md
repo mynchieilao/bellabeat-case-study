@@ -1,6 +1,6 @@
 # CASE STUDY 2: Bellabeat Fitness Capstone Project
 #### Author: Mynchie Ilao
-#### Date: September 27, 2022
+#### Date: October 4, 2022
 
 Datasets used are listed below:
 * https://www.kaggle.com/datasets/arashnic/fitbit
