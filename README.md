@@ -175,7 +175,7 @@ ggplot(data=merged_data, aes(x=Weekday, y=TotalSteps, fill=Weekday))+
 
 ### Interesting Finds:
 
-The more active that you're, the more steps you take, and the more calories you will burn. This is an obvious fact, but we can still look into the data to find any interesting. Here we see that some users who are sedentary, take minimal steps, but still able to burn over 1500 to 2500 calories compare to users who are more active, take more steps, but still burn similar calories.
+The more active that you're, the more steps you take, and the more calories you will burn. This is an obvious fact, but we can still look into the data. Here we see that some users who are sedentary, take minimal steps, but still able to burn over 1500 to 2500 calories compare to users who are more active, take more steps, but still burn similar calories.
 
 ```
 ggplot(data=daily_activity, aes(x=TotalSteps, y = Calories, color=SedentaryMinutes))+ 
